@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        p{
+            color: brown;
+        }
+
+        p::first-line{
+            color: black;
+        }
+
+        p::first-letter{
+            color: green;
+            font-size: 50px;
+        }
+
+        h1::before{
+            content: "🤔";
+        }
+
+        h1::after{
+            content: "🔙";
+        }
+
+        *::selection{
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium esse libero dolorem nisi, at quas, atque quidem voluptates omnis quasi accusamus minus placeat assumenda? Vel ipsa deserunt quidem accusamus voluptatibus. Nam laborum magnam a eius neque placeat voluptatibus sunt ipsum.</p>
+
+    <h1>Devanshu sir</h1>
+
+</body>
+</html>
