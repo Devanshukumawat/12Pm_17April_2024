@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 100%;
+            height: 80vh;
+            background-color: black;
+        }
+        .main .nav{
+            background-color: brown;
+            width: 100%;
+            padding: 10px 0px 10px 0px;
+            
+        }
+
+        .main .content_img{
+            width: 80%;
+            height: 70vh;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .content_img .img{
+            width: 50%;
+            height:60vh ;
+            background-color: blue;
+        }
+        .content_img .content{
+            width: 50%;
+            height: 60vh;
+            background-color: brown;
+        }
+
+        .nav ul li{
+            list-style-type: none;
+            margin: 10px;
+        }
+
+        .nav ul{
+            display: flex;
+            clear: left;
+           
+            /* justify-content: space-between; */
+        }
+
+        .nav li img{
+            width: 25px;
+        }
+
+        .nav button{
+               
+                float: right;
+               
+        }
+
+    </style>
+</head>
+<body>
+    
+
+    <div class="main">
+        <div class="nav">
+            <ul>
+                <li><img src="./media/ZEE5_logo.svg" alt=""></li>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Blog</li>
+                <li>More</li>
+                <li></li>
+            </ul>
+
+            <button>Contact</button>
+
+            
+        </div>
+        <div class="content_img">
+            <div class="img"></div>
+            <div class="content"></div>
+        </div>
+    </div>
+
+</body>
+</html>

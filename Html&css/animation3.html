@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img{
+            width: 300px;
+            position: relative;
+            animation-name: superMan;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes superMan {
+            0%{
+                top: 0px;
+                left: 0px;
+                transform: rotateX('angle',180deg);
+            }
+            50%{
+                top: 400px;
+                left: 50%;
+                transform: rotate(360deg);
+            }
+            100%{
+                top: 0px;
+                left: 70%;
+
+            }
+        }
+    </style>
+
+</head>
+<body>
+
+    <img src="./media/Animation-PNG-HD.png" alt="">
+    <img src="./media/pinpng.com-slender-man-png-1137.png" alt="">
+    
+</body>
+</html>

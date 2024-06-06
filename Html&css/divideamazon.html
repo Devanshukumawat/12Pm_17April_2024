@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .main{
+            width: 100%;
+            height: 40vh;
+            /* background-color: aquamarine; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main > div{
+            background-color: black;
+            width: 250px;
+            height: 40vh ;
+            margin: 10px;
+        }
+
+        .box1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .box1 > div{
+            background-color: brown;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            
+        }
+        .box2 > div{
+            background-color: brown;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            
+        }
+        .box3 > div{
+            background-color: brown;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            
+        }
+        .box4 > div{
+            background-color: brown;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            
+        }
+        @media screen and (max-width:1000px) {
+            .main{
+                flex-direction: column;
+                height: 100vh;
+            }
+
+            .main > div{
+                height: 90vh;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    
+
+    <div class="main">
+        <div class="box1">
+           
+        </div>
+        <div class="box2">
+           
+        </div>
+        <div class="box3">
+            
+        </div>
+        <div class="box4">
+           
+        </div>
+    </div>
+
+</body>
+</html>

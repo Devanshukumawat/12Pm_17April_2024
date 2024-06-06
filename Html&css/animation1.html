@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .balll{
+            background-color: green;
+            width: 80px;
+            height: 80px;
+            position: relative;
+            border-radius: 100%;
+            animation-name: Ball;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes Ball{
+            0%{
+                left: 0px;
+                top: 0px;
+            }
+            25%{
+                left: 800px;
+                top: 0px;
+            }
+            50%{
+                left: 800px;
+                top: 700px;
+            }
+            75%{
+                left: 0px;
+                top: 700px;
+            }
+            100%{
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="balll"></div>
+
+</body>
+</html>
